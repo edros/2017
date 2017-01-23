@@ -5,6 +5,8 @@ using namespace std;
 
 std::vector<int> Distance;
 
+// dummy comment for checkin std::vector<double> DD;
+
 void dijkstra(std::vector<std::vector<std::pair<int, int> > >& G, int v)
 {
 	Distance.resize(G.size());
